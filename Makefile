@@ -8,7 +8,7 @@ all: journald-logger-cli
 
 .PHONY: clean
 clean:
-        $(RM) journald-logger-cli.o
+	$(RM) journald-logger-cli.o
 
 journald-logger-cli : journald-logger-cli.o
 
